@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>    
+    <title>Formulario</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Título de la WEB">
+    <meta name="description" content="Descripción de la WEB">    
+    <link href="estilos.css" rel="stylesheet">    
+</head>  
+<body>    
+    <header>
+        <h1>FORMULARIO</h1>      
+    </header>    
+    <nav>
+        <a href="index1.html">Página Inicial</a>
+    </nav>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="name">Nombre:</label>
+            <input id="name" type="text" pattern="[A-Za-z]+" title="No se permiten dígitos" required autofocus><br>
+            <label for="mail">Correo Electrónico:</label>
+            <input id="mail" type="email" required><br>
+            <label for="nacimiento">Fecha y hora de nacimiento</label>
+            <input id="nacimiento"><br>
+            <label for="tel">Teléfono:</label>
+            <input id="tel" type="tel" pattern="[0-9]{9}" title="Un número de teléfono compuesto por 9 dígitos"><br>
+        </fieldset>
+            <label for="url">URL:</label>
+            <input id="url" type="url" placeholder="Escribe la URL de tu página"><br>
+            <label for="fecha">Fecha:</label>
+            <input id="fecha" type="date"><br>
+            <label for="hora">Tiempo:</label>
+            <input id="hora" type="time"><br>
+            <label for="mes">Mes</label>
+            <input id="mes" type="month"><br>
+            <label for="semana">Semana</label>
+            <input id="semana" type="week"><br>
+            <label for="num">Número (min -10, max 10)</label>
+            <input id="num" type="number" min="-10" max="10"><br>
+            <label for="inter">Intervalo (min 0, max 10):</label>
+            <input id="inter" type="range" min="0" max="10"><br>
+            <label for="busqueda">Término de búsqueda:</label>
+            <input id="busqueda" type="search"><br>
+            <label for="color">Color Favorito:</label>
+            <input id="color" type="color"><br>
+            
+        <input type="submit" value="¡Enviar!">
+    </form>
+    <footer>
+        <h4>Redes sociales</h4>
+        <address>
+        <a href="https://www.facebook.com/">Facebook</a>
+        </address>
+        <address>
+        <a href="https://www.twitter.com/">Twitter</a>
+        </address>
+    </footer>
+</body>  
+</html>

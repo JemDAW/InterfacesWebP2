@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>    
+    <title>Etiquetas</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Título de la WEB">
+    <meta name="description" content="Descripción de la WEB">    
+    <link href="estilos.css" rel="stylesheet">    
+</head>  
+<body>    
+    <header>
+        <h1>ETIQUETAS</h1>      
+    </header>    
+    <nav>
+        <a href="index1.html">Página Inicial</a>
+    </nav>
+    <section>      
+        <article>
+            <h2>BDI</h2>
+            <details>
+                <summary>La palabra reconocer es un palíndromo ya que se escribe igual de derecha a izquierda: <bdi>reconocer</bdi>.</summary>
+                <p>La etiqueta <em>bdi</em> permite incrustar un fragmento de texto con una direccionalidad diferente o desconocida.</p>
+            </details>      
+        </article>
+        <article>
+            <h2>CITE</h2>
+            <details>
+                <summary>Mañana quiero ir a ver <cite>Tenet</cite> al cine, pero no he escuchado buenas críticas.</summary>
+                <p>Las etiquetas <em>cite</em> se usan con los títulos de trabajos de arte.</p>
+            </details>
+        </article>
+        <article>
+            <h2>DATALIST</h2>
+            <input list="alumnos">
+            <datalist id="alumnos">
+                <option>Jemima</option>
+                <option>Jose Miguel</option>
+                <option>Álvaro</option>
+                <option>Andrés</option>
+                <option>Ignacio</option>
+            </datalist>
+            <p>La etiqueta <em>datalist</em> se usa con el elemento input para dar opciones de autocompletación.</p>
+        </article>
+        <article>
+            <h2>DETAILS & SUMMARY</h2>
+            <details>
+                <summary>Las etiquetas <em>details</em> y <em>summary</em> han sido usadas en toda la página web para ayudar a la explicación del uso del resto de etiquetas.</summary>
+                <p>Summary se usa dentro de details y al hacer click sobre la etiqueta summary se despliega un texto adicional, como este mismo, que se puede replegar.</p>
+            </details>
+        </article>
+        <article>
+            <h2>EMBED</h2>
+            <embed type="image/jpg" src="img/img3.jpg">
+            <p>Esta etiqueta define el contenedor para un recurso externo, como en este caso una imagen. Puede ser un plug-in, video, página web...</p>
+        </article>
+        <article>
+            <h2>MARK</h2>
+            <p>En este párrafo estamos usando la etiqueta <mark>mark</mark>.</p>
+            <details>
+                <summary>La etiqueta <em>mark</em> se usa para destacar una parte de texto que es relevante para el usuario en ese momento.</summary>
+                <p>Se suele usar en los resultados de búsquedas, en este caso yo lo he usado con el nombre de la etiqueta, ya que es destacable en esta sección por ser importante para el usuario.</p>
+            </details>
+        </article>
+        <article>
+            <h2>METER</h2>
+            <meter max="13" value="7" id="metro"></meter>
+            <details>
+                <summary>7 etiquetas vistas de 13</summary>
+                <p>La etiqueta <em>meter</em> se usa para marcar medidas que están dentro de una escala.</p>
+            </details>
+        </article>
+        <article>
+            <h2>OUTPUT</h2>
+            <form oninput="resultado.value=rango.value">
+                <input type="range" id="rango" max="50"/>
+                <output id="resultado" for="rango"></output>
+            </form>
+            <p>La función de la etiqueta <em>output</em> es mostrar un resultado, puede ser numérico o no.</p>
+        </article>
+        <article>
+            <h2>PROGRESS</h2>
+            <progress min="0" max="100" value="45"></progress>
+            <details>
+                <summary>Progreso de práctica: 45%</summary>
+                <p>La etiqueta <em>progress</em> se usa sobre todo con Javascript para mostrar un progreso dinámico.</p>
+            </details>
+        </article>
+        <article>
+            <h2>RUBY</h2>
+            <ruby>
+                今日は <rt>こんにちは</rt>
+            </ruby>
+            <details>
+                <summary>La etiqueta <em>ruby</em> sirve para marcar anotaciones ruby en lenguajes ideogrmáticos.</summary>
+                <p>La etiqueta <em> rt</em> sirve para mostar la pronunciación de lo escrito en la etiqueta ruby.</p>
+            </details>
+        </article>
+        <article>
+            <h2>SMALL</h2>
+            <p>La etiqueta <em>small</em> se usa para la letra pequeña, como impresiones legales.</p>
+            <small>El contenido de esta página está licenciado bajo una licencia general de CCA</small>
+        </article>
+        <article>
+            <h2>TIME</h2>
+            <p>La película empieza a las <time datetime="20:00">20:00</time> en el cine de Petrer y a las <time datetime="20:30">20:30</time> en el cine de Alicante.</p>
+            <details>
+                <summary>La etiqueta <em>time</em> nos permite declarar un texto comprensible para el navegador que represente la fecha y/o hora.</summary>
+                <p>El atributo <em>datetime</em> se suele usar con esta etiqueta para representar el formato de fecha usado.</p>
+            </details>
+        </article>
+        <article>
+            <h2>WBR & CODE</h2>
+            <p>Si quieres usar el método <code>reiniciar<wbr>Maquina<wbr>Despues<wbr>Del<wbr>Evento(ev)</code> debes pasarle el evento como parámetro.</p>
+            <details>
+                <summary>En este ejemplo hemos usado dos etiquetas, la etiqueta <em>wbr</em> y la etiqueta <em>code</em>.</summary>
+                <p>Usamos <em>code</em> para indicar que el fragmento de texto que hay dentro es un código que no debe ser ejecutado. La etiqueta <em>wbr</em> nos muestra dónde es correcto hacer un salto de línea dentro de una palabra.</p>
+            </details>
+        </article>
+        <article>
+            <h2>S</h2>
+            <p>Códigos de promoción: BDOCSD , <s>BDOSDC</s>, BDODSC.</p>
+            <details>
+                <summary>La etiqueta <em>s</em> se usa para mostrar que el contenido ya no es aplicable.</summary>
+                <p>En el ejemplo uno de los códigos de promoción ya no se puede usar porque ha caducado.</p>
+            </details>
+        </article>
+        <article>
+            <h2>INS & DEL</h2>
+            <p>La contraseña para los archivos es: <del>PIRATA1234</del> <ins>PIRATA4321</ins></p>
+            <details>
+                <summary>Estas etiquetas siempre se usan juntas, su función es mostrar partes nuevas y partes eliminadas del documento.</summary>
+                <p>Se diferencia de <em>s</em> en que lo escrito dentro de <em>del</em> es incorrecto y siempre lo ha sido.</p>
+            </details>
+        </article>
+        <article>
+            <h2>Q</h2>
+            <p>Como Bob Marley dijo: <q>Don't worry, be happy</q>.</p>
+            <details>
+                <summary>Se usa con citas cortas.</summary>
+                <p>Para citas largas se suele usar <em>blockquote</em>.</p>
+            </details>
+        </article>
+        <article>
+            <h2>ABBR & DFN</h2>
+            <p>Para quien no lo sepa, <dfn><abbr title="You Only Live Once">YOLO</abbr></dfn> es un estilo de vida.</p>
+            <details>
+                <summary>La etiqueta <em>abbr</em> hace referencia a abreviaturas, y dentro de <em>dfn</em> hay definiciones.</summary>
+                <p>Dentro de <em>abbr</em> usamos el atributo <em>title</em> para escribir cual es cada palabra del acrónimo.</p>
+            </details>
+        </article>      
+    </section>
+    <article>
+        <h2>PRE</h2>
+        <pre>
+            <code>
+                for (let i=0; i>100;i++){
+                    console.log("Hola " + i);
+                }
+            </code>
+        </pre>
+        <details>
+            <summary>Representa texto preformateado.</summary>
+            <p>Se suele usar con <em>code</em>.</p>
+        </details>
+    </article>
+    <article>
+        <h2>SAMP</h2>
+        <p>Es posible que la página web te notifique <samp>internal error 404</samp>.</p>
+        <p>La etiqueta <em>samp</em> se usa para identificar salidas de algún tipo de interacción con un computador.</p>
+    </article>
+    <article>
+        <h2>KBD</h2>
+        <p>El comándo rápido para el task manager de Windows es <kbd>Control</kbd>+<kbd>Shift</kbd>+<kbd>Escape</kbd> .</p>
+        <details>
+            <summary>Se usa para hacer referencia a algo que el usuario debe hacer o escribir en el teclado durante una interacción.</summary>
+            <p>También se usa para entradas alternativas como por entrada de voz.</p>
+        </details>
+    </article>
+    <article>
+        <h2>VAR</h2>
+        <p>En el código <code>ev.target</code> la variable <var>ev</var> hace referencia al evento.</p>
+        <p>La etiqueta <em>var</em> hace referencia a una variable en un contexto técnico, como en programación o matemáticas.</p>
+    </article>
+    <article>
+        <h2>DATA</h2>
+        <ul>
+            <li><data value="23546">Manuel Alted</data></li>
+            <li><data value="64532">Ignacio Esteve</data></li>
+        </ul>
+        <details>
+            <summary>Esta etiqueta se puede usar para adjuntar un cliente con su número de cliente.</summary>
+            <p>Suele usarse con Javascript.</p>
+        </details>
+    </article>
+    <article>
+        <h2>SUP & SUB</h2>
+        <p>Profesora de Interfaces Web: M<sup>a</sup> Rosa Aravid.</p>
+        <p>La fórmula quimica del ácido sulfúrico sería H<sub>2</sub>SO<sub>4</sub>.</p>
+        <details>
+            <summary>La etiqueta <em>sup</em> representa superíndice y la etiqueta <em>sub</em> subíndice.</summary>
+            <p>No deberían usarse para representar físicamente el superíndice o subíndice, ya que esa tarea debería resolverse con CSS.</p>
+        </details>
+    </article>
+    <footer>
+        <h4>Redes sociales</h4>
+        <hr>
+        <address>
+        <a href="https://www.facebook.com/">Facebook</a>
+        </address>
+        <address>
+        <a href="https://www.twitter.com/">Twitter</a>
+        </address>
+    </footer>
+</body>  
+</html>
