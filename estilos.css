@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+h1{
+    font-family: "Courier New", Courier, monospace;
+    color: #19804d;
+    border: solid 3px black;
+    margin: 20px 750px;
+}
+p, button{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+nav{
+    border: solid 3px cyan;
+    margin: 0px 750px;
+    padding: 20px;
+}
+nav a{
+    padding: 5px;
+}
+a:link {
+    color: #037ffc;
+}
+a:visited {
+    color: #691313;
+}
+a:hover{
+    color: #8c09de;
+}
+video{
+    width: 750px;
+    border: solid 3px cyan;
+    border-radius: 15px;
+}
+form{
+	display:inline-block;
+    border: solid 3px  #8c09de;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 25px;
+    width: 750px;
+}
+button{
+    background-color: springgreen;
+    font-size: 1em;
+    margin-bottom: 10PX;
+    width: 150px;
+    border-radius: 15px;
+}
